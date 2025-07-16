@@ -1,0 +1,37 @@
+.bendera{
+    background-image: url(../src/images/flag-tanzania.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.picha{
+  background: url(../src/images/study-group-african-people.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.batani{
+    cursor: pointer;
+}
+.batani:hover{
+    color: #005;
+    background-color: whitesmoke;
+    transition: 1s;
+}
+.neno{
+    border-radius: 10px 40px 60px;
+    /* box-shadow: 3px 2px 2px blanchedalmond; */
+    font-size: 26px;
+}
+body{
+    background: #1c398e;
+}
+.service:hover{
+box-shadow: 1px 2px 3px orange;
+}
+.service{
+box-shadow: 1px 2px 3px whitesmoke;
+transition: 1s;
+}

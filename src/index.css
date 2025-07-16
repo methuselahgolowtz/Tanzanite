@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme{
+  --font-quinger: quinger, "san-serif";
+  --font-galeion: gelion, 'san-serif';
+  --font-cabinet: cabinet, 'san-serif';
+}
+
+@font-face {
+  font-family: 'quinger';
+  font-style: normal;
+  font-weight: 700 900; 
+  font-display: swap;
+  src: url('./fonts/quinger/Quinger-MVy5w.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'gelion';
+  src: url(./fonts/gelion/Gelion\ Regular.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'cabinet';
+  font-style: normal;
+  font-weight: 700 900; 
+  font-display: swap;
+  src: url('./fonts/cabinet-grotesk-webfont/CabinetGrotesk-Regular.woff') format('truetype');
+}
